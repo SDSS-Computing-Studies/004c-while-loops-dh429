@@ -30,7 +30,6 @@ while multi <= 12:
     print(number * multi , end=" ")
     multi = multi + 1
 
-    if multi == 12:
+    if multi > 12:
         break
-
 
