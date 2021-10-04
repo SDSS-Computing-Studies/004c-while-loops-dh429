@@ -20,17 +20,23 @@ That is an even integer
 
 """
 import math
+while True:
+    try:
+        number = input("Enter a number:")
+        number = float(number)
 
-number = input("Enter a number:")
-number = float(number)
+        while number != number.is_integer() and number % 2 != 0:
+            print("That is not an even integer")
+            number = input("Enter a number:")
+            number = float(number)
 
-while number != number.is_integer() and number % 2 != 0:
-    print("That is not an even integer")
-    number = input("Enter a number:")
-    number = float(number)
+            if number.is_integer() and number % 2 == 0:
+                print ("That is an even integer")
+                break
 
-    if number.is_integer() and number % 2 == 0:
-        print ("That is an even integer")
+        else:
+            print("That is an even integer")
+            break
 
-else:
-    print("That is an even integer")
+    except:
+        print("That is not a number try again")
