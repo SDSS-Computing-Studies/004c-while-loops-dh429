@@ -26,9 +26,3 @@ while num1 <= 100 or num2 <= 100 or num3 <= 100:
     num1 = num2 + num1
     num2 = num1 + num2
     
-    if num1 > 100:
-        break
-        
-    elif num2 > 100:
-        print(num1)
-        break
