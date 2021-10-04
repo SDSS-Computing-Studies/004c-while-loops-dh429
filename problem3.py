@@ -13,3 +13,22 @@ after the number in the sequence is greater than 100:
 Example:
 1 1 2 3 5 ...
 """
+
+num1 = 1
+
+num2 = 1
+
+num3 = num1 + num2
+
+num4 = num3 + num2
+while num1 <= 100 or num2 <= 100 or num3 <= 100:
+    print(num1, num2, end = " ")
+    num1 = num2 + num1
+    num2 = num1 + num2
+    
+    if num1 > 100:
+        break
+        
+    elif num2 > 100:
+        print(num1)
+        break
