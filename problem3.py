@@ -18,10 +18,7 @@ num1 = 1
 
 num2 = 1
 
-num3 = num1 + num2
-
-num4 = num3 + num2
-while num1 <= 100 or num2 <= 100 or num3 <= 100:
+while num1 <= 100 or num2 <= 100:
     print(num1, num2, end = " ")
     num1 = num2 + num1
     num2 = num1 + num2
