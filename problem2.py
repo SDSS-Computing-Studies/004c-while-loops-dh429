@@ -18,6 +18,7 @@ Enter a number: 4
 4 8 12 16 20 24 28 32 36 40 44 48
 """
 go = True
+
 while go == True:
     try:
         number = input("Enter a number:")

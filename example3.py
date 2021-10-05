@@ -16,8 +16,6 @@ while True:
     print("This will be an infinite loop!")
     delay = random.random() + 1
     count = count + 1
-    if count > 50:
-        break
 
 print("We broke out of an infinite loop by using the break command")
     
