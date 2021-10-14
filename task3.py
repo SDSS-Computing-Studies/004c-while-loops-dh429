@@ -21,7 +21,6 @@ That is an even integer
 """
 import math
 while True:
-    try:
         number = input("Enter a number:")
         number = float(number)
 
@@ -37,6 +36,3 @@ while True:
         else:
             print("That is an even integer")
             break
-
-    except:
-        print("That is not a number try again")
